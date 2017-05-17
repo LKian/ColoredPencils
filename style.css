@@ -1,0 +1,73 @@
+h1 {
+  color: black; } 
+.box {
+    text-align: center; }  
+.pencil {
+    display: inline-block;
+    margin: 3px;
+    height: 160px;
+    width: 16px;
+    border-radius: 10px 10px 0 0;
+    position: relative; }
+.pencil:hover {
+    top: 30px; 
+    transition: top, left, transform 0.5s;
+    transform: rotate(15deg); }
+.pencil:first-child {  
+    background: linear-gradient(to left, #1a2201, #425704); }
+.pencil:nth-child(2) { 
+    background: linear-gradient(to left, #003d14, #009933); }
+.pencil:nth-child(3) {
+  background: linear-gradient(to left, #002626, #008080); }
+.pencil:nth-child(4) { 
+  background: linear-gradient(to left, #002d4c, #0099ff); }
+.pencil:nth-child(5) { 
+  background: linear-gradient(to left, #000066, #0000FF); }
+.pencil:nth-child(6) { 
+  background: linear-gradient(to left, #28143d, #663399); }
+.pencil:nth-child(7) {
+  background: linear-gradient(to left, #3f0000, #CC0099); }
+.pencil:nth-child(8) {
+  background: linear-gradient(to left, #4c0000, #ff0000); }
+.pencil:nth-child(9) {
+  background: linear-gradient(to left, #662800, #FF6600); }
+.pencil:nth-child(10) {
+  background: linear-gradient(to left, #7F7F00, #FFC720); }
+.tip {
+  display: inline-block;
+  position: absolute;
+  bottom: -46px;
+  left:0px; 
+  text-align: center;
+  border-top: 16px solid #ffcc99;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-bottom: 15px solid transparent;  }
+.point {
+  display: inline-block;
+  position: absolute;
+  bottom: -39px;
+  left: 4px;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-bottom: 8px solid transparent;  }
+.pencil:first-child .point {
+  border-top: 8px solid #425704; }
+.pencil:nth-child(2) .point {
+  border-top: 8px solid #009933; }
+.pencil:nth-child(3) .point {
+  border-top: 8px solid #008080; }
+.pencil:nth-child(4) .point {
+  border-top: 8px solid #0099FF; }
+.pencil:nth-child(5) .point {
+  border-top: 8px solid #0000FF; }
+.pencil:nth-child(6) .point {
+  border-top: 8px solid #663399; }
+.pencil:nth-child(7) .point {
+  border-top: 8px solid #cc0099; }
+.pencil:nth-child(8) .point {
+  border-top: 8px solid #ff0000; }
+.pencil:nth-child(9) .point {
+  border-top: 8px solid #FF6600; }
+.pencil:nth-child(10) .point {
+  border-top: 8px solid #FFC720; }
